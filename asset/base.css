@@ -26,3 +26,11 @@ width: 100%;
 display: flex;   
 flex-wrap: wrap;
 }
+@keyframes fadeIn{
+    from  {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}

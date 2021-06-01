@@ -7,7 +7,8 @@
     padding: 0;
     margin-top: 4px;
 }
-.navbar-item, .header__navbar-item-link{
+.navbar-item, 
+.header__navbar-item-link{
     /* cho cac the li cung 1 dong */
     display: inline-block;
     font-size: 1.4rem;
@@ -15,8 +16,16 @@
     text-decoration: none;
     font-weight: 300;
 }
+.navbar-item, 
+.header__navbar-item-link, .icon{
+display: inline-flex;
+align-items: center;
+
+}
 .navbar-item{
 margin: 0 8px;
+min-height: 26px;
+position: relative;
 }
 .header__navbar{
     display: flex;
@@ -27,11 +36,52 @@ margin: 0 8px;
     font-weight: 500;
 }
 .navbar-item:hover, 
-.header__navbar-item-link:hover {
+.header__navbar-item-link:hover,.icon:hover {
     color: rgba(255, 255, 255, 0.7);
     cursor: pointer;
 }
 .icon {
     color: var(--white-color);
     text-decoration: none;
+    margin:0 4px ;
 }
+.navbar-label--nopointer{
+    cursor: text;
+    color: white;
+}
+.qr{
+background-color: var(--white-color);
+width: 186px;
+position: absolute;
+left: 0;
+top: 100%;
+padding: 8px;
+border-radius: 2px;
+display: none;
+animation: fadeIn ease-in 0.7s;
+}
+.qr_img{
+width: 100%;
+}
+.head_app{
+display: flex;
+height: 18px;
+justify-items: space-between;
+}   
+.header_linkdowload{
+    height: 15px;
+    width: 100%;
+   
+}
+.appstore_img{
+    height: 100%;
+    margin-left: 11px;
+}
+.gg_img{
+    height: 100%;
+    margin-right: 11px;
+}
+.qr_show:hover .qr{
+display: block;
+}
+
