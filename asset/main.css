@@ -5,6 +5,7 @@
 .header__navbar-list{
     list-style-type: none;
     padding: 0;
+    margin-top: 4px;
 }
 .navbar-item, .header__navbar-item-link{
     /* cho cac the li cung 1 dong */
@@ -24,4 +25,13 @@ margin: 0 8px;
 }
 .strong {
     font-weight: 500;
+}
+.navbar-item:hover, 
+.header__navbar-item-link:hover {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.icon {
+    color: var(--white-color);
+    text-decoration: none;
 }
