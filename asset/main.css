@@ -262,10 +262,30 @@ margin-top: 4px;
     margin-top: 24px;
 }
 .lable{
-    margin: 0 36px;
+    margin: 0 24px;
 }
 .btn--icongg{
     background-color: white;
     border: 1px solid;
     color: #666;
+}
+.auth-form__help{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.auth-form-helplink{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #939393;
+}
+.sperate{
+    display: block;
+  height: 22px;
+  margin: 1px 16px 0;
+    border-left: 1px solid var(--boder--color);
+
+}
+.forgot{
+    color: var(--pri-color);
 }
