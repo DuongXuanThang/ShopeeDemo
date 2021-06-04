@@ -81,6 +81,7 @@ width: 83.3334%;
 }
 /* btn style */
 .btn{
+    background-color: white;
     min-width: 142px;
     height:36px ;
     border-radius: 2px;
@@ -119,4 +120,27 @@ color: var(--white-color);
 .btn--iconfb{
     color: var(--white-color);
     background-color: #3a5a98;
+}
+/* Selection */
+.select-input{
+    min-width: 200px;
+    height: 34px;
+    padding:0 12px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    position: relative;
+}
+.select-input:hover {
+    display: block;
+}
+.select-input-link{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
 }
