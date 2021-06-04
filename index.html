@@ -127,8 +127,28 @@
                                 <i class="far fa-question-circle"></i>
                                 Trợ giúp</a>
                         </li>
-                        <li class="navbar-item  strong">Đăng kí |</li>
-                        <li class="navbar-item  strong">Đăng Nhập</li>
+                        <!-- <li class="navbar-item  strong">Đăng kí |</li> -->
+                        <li class="navbar-item navbar-user" >
+                            <img class="navbar-user-ava" src="asset/img/ava.png" alt="">
+                            <span class="navbar-user-ava-name">Xuân Thắng</span>
+                       <ul class="navbar-user-menu">
+                           <li class="navbar-user-menu-item">
+                               <a href="">Tài khoản của tôi</a>
+                           </li>
+                           <li class="navbar-user-menu-item">
+                            <a href="">Địa chỉ của tôi</a>
+                        </li>
+                        <li class="navbar-user-menu-item">
+                            <a href="">Đơn mua</a>
+                        </li>
+                        <li class="navbar-user-menu-item">
+                            <a href="">Đăng xuất</a>
+                        </li>
+                           
+                       </ul>
+                        </li>
+                        
+                        <!-- <li class="navbar-item  strong">Đăng Nhập</li> -->
                     </ul>
                 </nav>
                 <!-- Header search -->
@@ -146,22 +166,22 @@
                         <div class="header__search-input-wrap">
                             <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
                             <!-- Search hítory -->
-                          
-                                <div class="header-search-history">
-                                    <h3 class="history-heading">Lịch sử tìm kiếm</h3>
-                                    <ul class="search-list">
-                                        <li class="search-list-item">
-                                            <a href="">Kem dưỡng da</a>
-                                        </li>
-                                        <li class="search-list-item">
-                                            <a href="">Kem trị mụn</a>
-                                        </li>
-                                        <li class="search-list-item">
-                                            <a href="">Kem dưỡng da</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            
+
+                            <div class="header-search-history">
+                                <h3 class="history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="search-list">
+                                    <li class="search-list-item">
+                                        <a href="">Kem dưỡng da</a>
+                                    </li>
+                                    <li class="search-list-item">
+                                        <a href="">Kem trị mụn</a>
+                                    </li>
+                                    <li class="search-list-item">
+                                        <a href="">Kem dưỡng da</a>
+                                    </li>
+                                </ul>
+                            </div>
+
                         </div>
                         <div class="search-selection">
                             <span class="search-selection-lable select-lable">
@@ -184,8 +204,16 @@
                             <i class="header__search-btn-icon fas fa-search"></i>
                         </button>
                     </div>
+                    <!-- Cartlayout -->
                     <div class="header__cart">
-                        <i class="header__cart-icon fas fa-shopping-cart"></i>
+                        <div class="cart_wrap"> 
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <div class="cart_list cart_list-nocart">
+                                <img class="no_cart" src="asset/img/empty_cart.png" alt="">
+                                <span class="car-mes">Chưa có sản phẩm</span>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
