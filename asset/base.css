@@ -51,6 +51,7 @@ padding-left: 5px;
 padding-right: 5px;
 width: 20%;
 flex: 1 ;
+height: 450px;
 }
 @keyframes fadeIn{
     from  {

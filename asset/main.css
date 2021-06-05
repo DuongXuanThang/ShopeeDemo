@@ -386,6 +386,7 @@ text-align: center;
     position: relative;
     display: inline-block;
     cursor: pointer;
+    z-index: 1;
     
 }
 .header__cart-icon{
@@ -612,7 +613,7 @@ border-color: transparent transparent transparent var(--pri-color) ;
     align-items: center;
     padding: 12px 22px;
     border-radius: 2px;
-    background-color: rgba(0,0,0, 0.05);
+    background-color: rgba(0,0,0, 0.04);
     
 }
 .paginate{
@@ -695,10 +696,11 @@ background-color: var(--pri-color);
     background-image: white;
     margin-top: 10px;  
     position: relative;
+    padding: 0 5px;
     
 }
 .home-product-item__name{
-    font-size: 1.4rem;
+        font-size: 1.4rem;
         font-weight: 400;
         color: var(--text-color);
         line-height: 1.8rem;
