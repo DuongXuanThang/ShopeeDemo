@@ -653,6 +653,7 @@ background-color: var(--pri-color);
     background-color: white;
     display: none;
 }
+
 .select-input-link:hover{
     color: var(--pri-color);
 }
